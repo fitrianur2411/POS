@@ -10,5 +10,5 @@ class UserController extends Controller
         return view('user')
         ->with('id', $id)
      ->with('name',$name);
-     }
+    }
 }

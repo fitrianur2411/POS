@@ -4,7 +4,7 @@
     <h3>Daftar home care: </h3>
     <ul>
         @foreach($homecare as $homecare)
-            <li>{{ $homecare }}</li>
+          <li>{{ $homecare }}</li>
         @endforeach
     </ul>
 </body>

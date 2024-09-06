@@ -4,7 +4,7 @@
     <h3>Daftar makanan & minuman: </h3>
     <ul>
         @foreach($foods as $food)
-            <li>{{ $food }}</li>
+          <li>{{ $food }}</li>
         @endforeach
     </ul>
 </body>

@@ -8,10 +8,8 @@ class ProductController extends Controller
 {
    public function food()
    {
-      return view('food', ['foods' => ['Bakso', 'Mie Ayam', 'Ceker Mercon', 'Air mineral', 'Es teh', 'Es jeruk']
-      ]);
+      return view('food', ['foods' => ['Bakso', 'Mie Ayam', 'Ceker Mercon', 'Air mineral', 'Es teh', 'Es jeruk']]);
    }
-
    public function beauty()
    {
       return view('beauty', ['beauty' => ['Face wash', 'Moisturizer', 'Serum', 'Essence', 'Toner']]);

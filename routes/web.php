@@ -31,5 +31,5 @@ Route::prefix('/category')->group(function () {
 //Halaman User
 Route::get('/user/{id}/name/{name}', [UserController::class,'user']);
 
-//Halaman Penjualan
+//Halaman Penjualan Transaksi
 Route::get('/transaksi', [PenjualanController::class,'penjualan']);

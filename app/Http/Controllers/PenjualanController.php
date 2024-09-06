@@ -8,5 +8,5 @@ class PenjualanController extends Controller
 {
     public function penjualan(){
         return view('penjualan', ['transaksi' => '15 Transaksi']);
-     }
+    }
 }

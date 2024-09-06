@@ -4,7 +4,7 @@
     <h3>Daftar baby kid: </h3>
     <ul>
         @foreach($babykid as $babykids)
-            <li>{{ $babykids }}</li>
+          <li>{{ $babykids }}</li>
         @endforeach
     </ul>
 </body>

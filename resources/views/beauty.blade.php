@@ -7,6 +7,5 @@
             <li>{{ $beautys }}</li>
         @endforeach
     </ul>
-
 </body>
 </html>
